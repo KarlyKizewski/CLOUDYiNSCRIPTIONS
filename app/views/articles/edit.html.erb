@@ -1,7 +1,9 @@
-<div class="formy col-7 offset-3">
-<h1>Edit article</h1>
+<div class="formy col-8 offset-3">
+<h1>EDIT</h1>
  
 <%= render 'form' %>
  
-<%= link_to 'NVM, OUTTA GAS!', articles_path %>
+<%= link_to 'B', article_path(@article) %>
+<%= link_to 'A', articles_path %>
+<%= link_to 'D', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %>
 </div>

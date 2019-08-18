@@ -1,18 +1,21 @@
-<div class="formy col-7 offset-3">
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
+<div class="manuscript col-5 offset-1">
+      <%= image_tag @article.manuscript, class: 'd-block img-fluid' %>
+</div>
 
-<p>
-  <strong>Text:</strong>
-  <%= @article.text %>
-</p>
-<ul class='text-right'>
-<%= link_to 'READ RADAR', articles_path %>
-<br />
-<%= link_to 'SMOKE WORDS, REWRITE', edit_article_path(@article) %>
-<br />
-<%= link_to 'FLOAT AWAY', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %>
-</ul>
+<div class="words">
+<div class="formy col-7 offset-4">
+    <p>
+        <%= @article.title %>
+    </p>
+    <p>
+        <%= @article.text %>
+    </p>
+    <ul class='text-right'>
+      <%= link_to 'B', articles_path %>
+    <br />
+      <%= link_to 'E', edit_article_path(@article) %>
+    <br />
+      <%= link_to 'D', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %>
+    </ul>
+</div>
 </div>

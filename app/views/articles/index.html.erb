@@ -1,19 +1,9 @@
-<div class="formy col-10 offset-1">
-<h1>Listing articles</h1>
- 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th></th>
-  </tr>
- 
+<div id='wrapper'>
+<div class="albums col-3">
   <% @articles.each do |article| %>
-    <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
-      <td><%= link_to 'SEE MY SCRIPT', article_path(article) %></td>
-    </tr>
+    <a href='<%= article_path(article) %>'><%= image_tag article.manuscript, class: 'hover d-block img-fluid' %></a>
+    <p class='text'><%= article.title %></p>
   <% end %>
-</table>
 </div>
+</div>
+
