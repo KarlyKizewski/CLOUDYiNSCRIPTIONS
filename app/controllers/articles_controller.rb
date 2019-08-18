@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  http_basic_authenticate_with name: ENV["BLOG_USERNAME"],password: ENV["BLOG_PASSWORD"],except: [:show]
+  http_basic_authenticate_with name: ENV["BLOG_USERNAME"],password: ENV["BLOG_PASSWORD"],except: [:index, :show]
 
   def index
     @articles = Article.paginate(:page => params[:page], :per_page => 8)
