@@ -1,1 +1,63 @@
 @import "bootstrap";
+
+html {
+  cursor: crosshair;
+}
+
+body {
+  background: image_url('joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg') no-repeat center center fixed;
+  font-family: 'im_fell_dw_pica_proitalic', Garamond;
+}
+
+.formy {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.formy p {
+  font-weight: bold;
+  color: #000000;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.blog-name li a {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-items {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-items li a {
+  color: #d1675c;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  cursor: crosshair;
+}
+
+.responsive {
+  height: auto;
+  width: 100%;
+}
+
+
+

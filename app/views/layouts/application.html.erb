@@ -10,6 +10,27 @@
   </head>
 
   <body>
+ <div class="navigation">
+      <div class="blog-name text-center">
+        <li>
+        <%= link_to 'CLOUDYiNSCRIPTIONS', root_path, class: 'title' %> 
+      </li>
+      </div>
+      <div class="nav-items text-right">
+      <ul>
+        <li class='options'>
+          <%= link_to 'NEW SCRIPT FOR THE SKY ?', new_article_path %>
+        </li>
+        <li class='options'>
+          <%= link_to 'OR FLY HOME ?', articles_path %>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
     <%= yield %>
   </body>
 </html>
