@@ -2,7 +2,7 @@
       <% @articles.each do |article| %>
       <div class="albums col-6 col-sm-3">
         <div id='wrapper'>
-        <a href='<%= article_path(article) %>'><%= image_tag article.manuscript, class: 'hover d-block img-fluid' %></a>
+        <a href='<%= article_path(article) %>'><%= image_tag article.picture, class: 'hover d-block img-fluid' %></a>
         <p class='text'><%= article.title %></p>
         </div>
       </div>

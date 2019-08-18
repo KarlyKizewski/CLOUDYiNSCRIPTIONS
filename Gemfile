@@ -67,6 +67,8 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem 'figaro'
 gem 'aws-sdk-s3', require: false
 gem 'will_paginate'
+gem 'carrierwave', '~> 1.0'
+gem 'fog-aws'
 
 source 'https://rails-assets.org' do 
   gem 'rails-assets-tether', '>= 1.3.3'
