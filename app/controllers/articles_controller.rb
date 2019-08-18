@@ -1,4 +1,6 @@
 class ArticlesController < ApplicationController
+  http_basic_authenticate_with name: ENV["USERNAME"], password: ENV["PASSWORD"], except: [:index, :show]
+
   def index
     @articles = Article.paginate(:page => params[:page], :per_page => 8)
   end
