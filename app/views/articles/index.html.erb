@@ -1,4 +1,4 @@
-<div class="formy col-7 offset-3">
+<div class="formy col-10 offset-1">
 <h1>Listing articles</h1>
  
 <table>
@@ -13,8 +13,6 @@
       <td><%= article.title %></td>
       <td><%= article.text %></td>
       <td><%= link_to 'SEE MY SCRIPT', article_path(article) %></td>
-      <td><%= link_to 'FLY AGAIN', edit_article_path(article) %></td>
-      <td><%= link_to 'FLOAT AWAY', article_path(article), method: :delete, data: { confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
 </table>

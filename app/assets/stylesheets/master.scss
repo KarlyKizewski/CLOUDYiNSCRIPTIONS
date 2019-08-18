@@ -11,10 +11,11 @@ body {
 
 .formy {
   background-color: #ffffff;
-  border: 1px solid black;
+  border: 1px solid white;
   opacity: 0.6;
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=80);
   padding: 10px;
+  border-radius: 10px;
 }
 
 .formy p {
@@ -66,10 +67,10 @@ a:-webkit-any-link {
   padding-right: 10px;
 }
 
-.welcome a {
+.dragon li a {
   color: #8742f5;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .formy a {
@@ -79,10 +80,12 @@ a:-webkit-any-link {
 }
 
 .formy p {
-  font-family: Garamond;
+  font-family: Didot;
   font-size: 15px;
   font-weight: 100;
 }
+
+
 
 
 
