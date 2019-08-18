@@ -8,7 +8,9 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
-
-<%= link_to 'MAYDAY, NEED TO READ FIRST', articles_path %>
-<%= link_to 'I GOT SOME WORDS TO SAY', edit_article_path(@article) %>
-<div class="formy col-7 offset-3">
+<ul class='text-right'>
+<%= link_to 'READ RADAR', articles_path %>
+<br />
+<%= link_to 'SMOKE WORDS, REWRITE', edit_article_path(@article) %>
+</ul>
+</div>
