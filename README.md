@@ -1,24 +1,4 @@
-# README
+First Personal Project! 
+A Rails blog to code about Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Instead of simply implementing gem simple_form, I opted for basic HTML form_for. It was nice to get a feel for this alternative. 
